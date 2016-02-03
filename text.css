@@ -1,0 +1,48 @@
+body {
+  background-image:
+  url(green.png);
+  background-repeat: repeat-x;
+  background-color: #FFFFFF;
+}
+
+article{
+  background-color: #ffffff;
+  width:500px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #aaaaaa;
+  padding: 30px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  -webkit-box-shadow:1px 1px 3px #aaaaaa;
+  box-shadow: 1px 1px 3px #aaaaaa;
+  border-radius: 20px;
+
+
+}
+
+textarea{
+  width:400px;
+  height:240px;
+}
+
+
+input[type="submit"]{
+  width:200px;
+
+  background-color: #32cd32;
+  background-image:linear-gradient(
+    to bottom,
+    #32cd32 0%;
+    #adff2f 100%);
+
+    border : solid 1px #aaaaaa;
+    border-radius:10px;
+    padding-top:10px;
+    padding-bottom: 10px;
+
+    );
+}
